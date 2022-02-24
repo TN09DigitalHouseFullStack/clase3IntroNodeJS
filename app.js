@@ -25,4 +25,18 @@ console.log(moment().format('MM DD YY'));
 
 
 //superheros
+console.log(heros[0].saludar());
+console.log(heros[1].saludar());
 console.log(heros[2].saludar());
+
+
+//PlayGround Importar Módulos
+
+// let moduloNativo = require('http');
+// let moduloInstalado = require('axios');
+// let moduloPropio = require('./miFuncion');
+
+//playGround Exportar módulos
+
+// let arrayDePeliculas = ["Harry Potter","Her", "Up", "Lego"];
+// module.exports = arrayDePeliculas;
